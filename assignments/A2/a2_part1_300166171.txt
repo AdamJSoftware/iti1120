@@ -1,0 +1,831 @@
+>>> elementary_school_quiz(0,2)
+Question 1:
+What is the result of 6-2? 4
+Question 2:
+What is the result of 9-9? 0
+2
+>>> elementary_school_quiz(1,1)
+Question 1:
+What is the result of 3^6? 36
+0
+>>> elementary_school_quiz(1,1)
+Question 1:
+What is the result of 1^1? 1
+1
+>>> elementary_school_quiz(1,2)
+Question 1:
+What is the result of 9^4? 6561
+Question 2:
+What is the result of 1^8? 1
+2
+
+>>> elementary_school_quiz(2,2)
+Question 1:
+What is the result of 7^8? 4
+Question 2:
+What is the result of 8^6? 4
+0
+>>> elementary_school_quiz(1,2)
+Question 1:
+What is the result of 2^6? 3
+Question 2:
+What is the result of 3^4? 5
+0
+>>> elementary_school_quiz(0,2)
+Question 1:
+What is the result of 8-9? -1
+Question 2:
+What is the result of 3-4? -1
+2
+>>> elementary_school_quiz(0,1)
+Question 1:
+What is the result of 6-3? 3
+1
+>>> elementary_school_quiz(0,1)
+Question 1:
+What is the result of 7-7? 0
+1
+>>> elementary_school_quiz(0,2)
+Question 1:
+What is the result of 7-6? -1
+Question 2:
+What is the result of 5-7? -2
+1
+>>> elementary_school_quiz(1,1)
+Question 1:
+What is the result of 3^8? 0
+0
+>>> elementary_school_quiz(1,1)
+Question 1:
+What is the result of 5^7? 78125
+1
+>>> elementary_school_quiz(1,2)
+Question 1:
+What is the result of 9^5? 59049
+Question 2:
+What is the result of 3^4? 81
+2
+>>> 
+>>> high_school_quiz(1,3,1)
+The quadratic equation 1*x^2 + 3*x + 1 = 0
+has the following real roots: 
+-0.3819660112501051 and -2.618033988749895
+>>> high_school_quiz(3,2,15)
+The quadratic equation 3*x^2 + 2*x + 15 = 0
+has the following two complex roots: 
+-0.3333333333333333 + i 2.2110831935702664 and -0.3333333333333333 - i 2.2110831935702664
+>>> high_school_quiz(3,2,-15)
+The quadratic equation 3*x^2 + 2*x + -15 = 0
+has the following real roots: 
+1.9274433277084226 and -2.5941099943750894
+>>> high_school_quiz(1,2,1)
+The quadratic equation 1*x^2 + 2*x + 1 = 0
+has only one solution, a real root: 
+-1.0
+>>> high_school_quiz(0,2,4)
+The quadratic equation2*x + 4 = 0
+has the following root/solution: -2.0
+>>> high_school_quiz(0,0,0)
+The linear equation 0*x + 0 = 0
+is satisfied for all numbers x
+>>> high_school_quiz(0,0,10)
+The linear equation 0*x + 10 = 0
+is satisfied for no number x
+>>> high_school_quiz(0,0,14)
+The linear equation 0*x + 14 = 0
+is satisfied for no number x
+>>> high_school_quiz(0,0,20)
+The linear equation 0*x + 20 = 0
+is satisfied for no number x
+>>> high_school_quiz(0,0,0)
+The linear equation 0*x + 0 = 0
+is satisfied for all numbers x
+>>> high_school_quiz(1,1,1)
+The quadratic equation 1*x^2 + 1*x + 1 = 0
+has the following two complex roots: 
+-0.5 + i 0.8660254037844386 and -0.5 - i 0.8660254037844386
+>>> high_school_quiz(0,1,1)
+The quadratic equation1*x + 1 = 0
+has the following root/solution: -1.0
+>>> high_school_quiz(10,51,21)
+The quadratic equation 10*x^2 + 51*x + 21 = 0
+has the following real roots: 
+-0.4517864741642715 and -4.648213525835729
+>>> high_school_quiz(10,51,-21)
+The quadratic equation 10*x^2 + 51*x + -21 = 0
+has the following real roots: 
+0.38300187521249285 and -5.4830018752124925
+>>> high_school_quiz(-10,51,-21)
+The quadratic equation -10*x^2 + 51*x + -21 = 0
+has the following real roots: 
+0.4517864741642715 and 4.648213525835729
+>>> high_school_quiz(-10,-51,-21)
+The quadratic equation -10*x^2 + -51*x + -21 = 0
+has the following real roots: 
+-4.648213525835729 and -0.4517864741642715
+>>> high_school_quiz(-10,-51,21)
+The quadratic equation -10*x^2 + -51*x + 21 = 0
+has the following real roots: 
+-5.4830018752124925 and 0.38300187521249285
+>>> high_school_quiz(-10,-5,21)
+The quadratic equation -10*x^2 + -5*x + 21 = 0
+has the following real roots: 
+-1.720544116985274 and 1.2205441169852742
+>>> high_school_quiz(-1,-5,21)
+The quadratic equation -1*x^2 + -5*x + 21 = 0
+has the following real roots: 
+-7.720153254455275 and 2.7201532544552753
+>>> high_school_quiz(-1,-5,2)
+The quadratic equation -1*x^2 + -5*x + 2 = 0
+has the following real roots: 
+-5.372281323269014 and 0.3722813232690143
+>>> high_school_quiz(-1,5,22)
+The quadratic equation -1*x^2 + 5*x + 22 = 0
+has the following real roots: 
+-2.815072906367325 and 7.815072906367325
+>>> high_school_quiz(1,5,22)
+The quadratic equation 1*x^2 + 5*x + 22 = 0
+has the following two complex roots: 
+-2.5 + i 3.968626966596886 and -2.5 - i 3.968626966596886
+>>> high_school_quiz(1,52,22)
+The quadratic equation 1*x^2 + 52*x + 22 = 0
+has the following real roots: 
+-0.42657629491115756 and -51.57342370508884
+>>> high_school_quiz(1,52,2)
+The quadratic equation 1*x^2 + 52*x + 2 = 0
+has the following real roots: 
+-0.038490028505659524 and -51.96150997149434
+
+
+
+
+
+
+
+*******************************************
+*                                         *
+* __Welcome to my math quiz-generator__   *
+*                                         *
+*******************************************
+    
+What is your name?  Adam
+Hi Adam. Are you in?  Enter 
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above? 
+1
+****************************************************************************
+*                                                                          *
+*  __Adam, welcome to my quiz-generator for elementary school students.__  *
+*                                                                          *
+****************************************************************************
+Adam what would you like to practice? Enter
+0 for subtraction
+1 for exponentiation
+0
+How many practice questions would you like to do? Enter 0, 1, or 2: 2
+Question 1:
+What is the result of 7-4? 3
+Question 2:
+What is the result of 8-9? -1
+
+*******************************************
+*                                         *
+* __Welcome to my math quiz-generator__   *
+*                                         *
+*******************************************
+    
+What is your name?  Adam
+Hi Adam. Are you in?  Enter 
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above? 
+1
+****************************************************************************
+*                                                                          *
+*  __Adam, welcome to my quiz-generator for elementary school students.__  *
+*                                                                          *
+****************************************************************************
+Adam what would you like to practice? Enter
+0 for subtraction
+1 for exponentiation
+0
+How many practice questions would you like to do? Enter 0, 1, or 2: 2
+Question 1:
+What is the result of 2-3? -1
+Question 2:
+What is the result of 6-4? 2
+Congratulations Adam! You'll probably get an A tomorrow.
+Good bye Adam!
+adam@LAPTOP-K8E1KKVP:~/school/iti1120/assignments/A2$ python3 a2_part1.py
+
+*******************************************
+*                                         *
+* __Welcome to my math quiz-generator__   *
+*                                         *
+*******************************************
+    
+What is your name?  Adam'
+Hi Adam'. Are you in?  Enter 
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above? 
+Ah
+Adam' you are not the target audience for this software
+Good bye Adam'!
+adam@LAPTOP-K8E1KKVP:~/school/iti1120/assignments/A2$ python3 a2_part1.py
+
+*******************************************
+*                                         *
+* __Welcome to my math quiz-generator__   *
+*                                         *
+*******************************************
+    
+What is your name?  Adam
+Hi Adam. Are you in?  Enter 
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above? 
+asdfasdfsdfasdfasdf
+Adam you are not the target audience for this software
+Good bye Adam!
+adam@LAPTOP-K8E1KKVP:~/school/iti1120/assignments/A2$ python3 a2_part1.py
+
+*******************************************
+*                                         *
+* __Welcome to my math quiz-generator__   *
+*                                         *
+*******************************************
+    
+What is your name?  Vik 
+Hi Vik. Are you in?  Enter 
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above? 
+3
+Vik you are not the target audience for this software
+Good bye Vik!
+adam@LAPTOP-K8E1KKVP:~/school/iti1120/assignments/A2$ python3 a2_part1.py
+
+*******************************************
+*                                         *
+* __Welcome to my math quiz-generator__   *
+*                                         *
+*******************************************
+    
+What is your name?  Chris
+Hi Chris. Are you in?  Enter 
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above? 
+1
+*****************************************************************************
+*                                                                           *
+*  __Chris, welcome to my quiz-generator for elementary school students.__  *
+*                                                                           *
+*****************************************************************************
+Chris what would you like to practice? Enter
+0 for subtraction
+1 for exponentiation
+0
+How many practice questions would you like to do? Enter 0, 1, or 2: 1
+Question 1:
+What is the result of 2-5? -3
+Congratulations Chris! You'll probably get an A tomorrow.
+Good bye Chris!
+adam@LAPTOP-K8E1KKVP:~/school/iti1120/assignments/A2$ python3 a2_part1.py
+
+*******************************************
+*                                         *
+* __Welcome to my math quiz-generator__   *
+*                                         *
+*******************************************
+    
+What is your name?  Patrick
+Hi Patrick. Are you in?  Enter 
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above? 
+1
+*******************************************************************************
+*                                                                             *
+*  __Patrick, welcome to my quiz-generator for elementary school students.__  *
+*                                                                             *
+*******************************************************************************
+Patrick what would you like to practice? Enter
+0 for subtraction
+1 for exponentiation
+0
+How many practice questions would you like to do? Enter 0, 1, or 2: 1
+Question 1:
+What is the result of 5-7? -2
+Congratulations Patrick! You'll probably get an A tomorrow.
+Good bye Patrick!
+adam@LAPTOP-K8E1KKVP:~/school/iti1120/assignments/A2$ python3 a2_part1.py
+
+*******************************************
+*                                         *
+* __Welcome to my math quiz-generator__   *
+*                                         *
+*******************************************
+    
+What is your name?  Rick
+Hi Rick. Are you in?  Enter 
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above? 
+1
+****************************************************************************
+*                                                                          *
+*  __Rick, welcome to my quiz-generator for elementary school students.__  *
+*                                                                          *
+****************************************************************************
+Rick what would you like to practice? Enter
+0 for subtraction
+1 for exponentiation
+0
+How many practice questions would you like to do? Enter 0, 1, or 2: 1
+Question 1:
+What is the result of 4-2? 5
+You should try practicing some more
+Good bye Rick!
+adam@LAPTOP-K8E1KKVP:~/school/iti1120/assignments/A2$ python3 a2_part1.py
+
+*******************************************
+*                                         *
+* __Welcome to my math quiz-generator__   *
+*                                         *
+*******************************************
+    
+What is your name?  James
+Hi James. Are you in?  Enter 
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above? 
+1
+*****************************************************************************
+*                                                                           *
+*  __James, welcome to my quiz-generator for elementary school students.__  *
+*                                                                           *
+*****************************************************************************
+James what would you like to practice? Enter
+0 for subtraction
+1 for exponentiation
+0
+How many practice questions would you like to do? Enter 0, 1, or 2: 2
+Question 1:
+What is the result of 1-1? 0
+Question 2:
+What is the result of 1-1? 4
+Good job James! You'll probably pass tomorrow.
+Good bye James!
+
+
+
+
+
+
+
+*******************************************
+*                                         *
+* __Welcome to my math quiz-generator__   *
+*                                         *
+*******************************************
+    
+What is your name?  Adam
+Hi Adam. Are you in?  Enter 
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above? 
+2
+*****************************************************************
+*                                                               *
+*  __quadratic equation, a·x^2 + b·x + c= 0, solver for Adam__  *
+*                                                               *
+*****************************************************************
+Adam, would you like a quadratic equation solved?  YeS
+Good choice!
+Enter a number for the coefficient of a: 1
+Enter a number for the coefficient of b: 2
+Enter a number for the coefficient of c: 3
+The quadratic equation 1*x^2 + 2*x + 3 = 0
+has the following two complex roots: 
+-1.0 + i 1.4142135623730951 and -1.0 - i 1.4142135623730951
+Adam, would you like a quadratic equation solved?  yeS
+Good choice!
+Enter a number for the coefficient of a: -1
+Enter a number for the coefficient of b: 10
+Enter a number for the coefficient of c: 36
+The quadratic equation -1*x^2 + 10*x + 36 = 0
+has the following real roots: 
+-2.810249675906654 and 12.810249675906654
+Adam, would you like a quadratic equation solved?  YES
+Good choice!
+Enter a number for the coefficient of a: 0
+Enter a number for the coefficient of b: 2.5
+Enter a number for the coefficient of c: 36
+Traceback (most recent call last):
+  File "a2_part1.py", line 191, in <module>
+    main()
+  File "a2_part1.py", line 177, in main
+    high_school_quiz(int(a), int(b), int(c))
+ValueError: invalid literal for int() with base 10: '2.5'
+adam@LAPTOP-K8E1KKVP:~/school/iti1120/assignments/A2$ python3 a2_part1.py
+
+*******************************************
+*                                         *
+* __Welcome to my math quiz-generator__   *
+*                                         *
+*******************************************
+    
+What is your name?  Adam
+Hi Adam. Are you in?  Enter 
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above? 
+2
+*****************************************************************
+*                                                               *
+*  __quadratic equation, a·x^2 + b·x + c= 0, solver for Adam__  *
+*                                                               *
+*****************************************************************
+Adam, would you like a quadratic equation solved?  YES
+Good choice!
+Enter a number for the coefficient of a: 0
+Enter a number for the coefficient of b: 2.5
+Enter a number for the coefficient of c: 3.246
+The linear equation2.5*x + 3.246 = 0
+has the following root/solution: -1.2984
+Adam, would you like a quadratic equation solved?  yes
+Good choice!
+Enter a number for the coefficient of a: 0
+Enter a number for the coefficient of b: 0
+Enter a number for the coefficient of c: 2.5
+The quadratic equation 0*x + 2.5 = 0
+is satisfied for no number x
+Adam, would you like a quadratic equation solved?  yes
+Good choice!
+Enter a number for the coefficient of a: 0
+Enter a number for the coefficient of b: 0
+Enter a number for the coefficient of c: 0
+The quadratic equation 0*x + 0 = 0
+is satisfied for all numbers x
+Adam, would you like a quadratic equation solved?  NO
+Good bye Adam!
+adam@LAPTOP-K8E1KKVP:~/school/iti1120/assignments/A2$ python3 a2_part1.py
+
+*******************************************
+*                                         *
+* __Welcome to my math quiz-generator__   *
+*                                         *
+*******************************************
+    
+What is your name?  Adam
+Hi Adam. Are you in?  Enter 
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above? 
+1
+****************************************************************************
+*                                                                          *
+*  __Adam, welcome to my quiz-generator for elementary school students.__  *
+*                                                                          *
+****************************************************************************
+Adam what would you like to practice? Enter
+0 for subtraction
+1 for exponentiation
+5
+Invalid choice. Only 0 or 1 is accepted.
+Good bye Adam!
+adam@LAPTOP-K8E1KKVP:~/school/iti1120/assignments/A2$ python3 a2_part1.py
+
+*******************************************
+*                                         *
+* __Welcome to my math quiz-generator__   *
+*                                         *
+*******************************************
+    
+What is your name?  Larry
+Hi Larry. Are you in?  Enter 
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above? 
+1
+*****************************************************************************
+*                                                                           *
+*  __Larry, welcome to my quiz-generator for elementary school students.__  *
+*                                                                           *
+*****************************************************************************
+Larry what would you like to practice? Enter
+0 for subtraction
+1 for exponentiation
+edsrfaC
+Invalid choice. Only 0 or 1 is accepted.
+Good bye Larry!
+adam@LAPTOP-K8E1KKVP:~/school/iti1120/assignments/A2$ python3 a2_part1.py
+
+*******************************************
+*                                         *
+* __Welcome to my math quiz-generator__   *
+*                                         *
+*******************************************
+    
+What is your name?  Hippolyta
+Hi Hippolyta. Are you in?  Enter 
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above? 
+1
+*********************************************************************************
+*                                                                               *
+*  __Hippolyta, welcome to my quiz-generator for elementary school students.__  *
+*                                                                               *
+*********************************************************************************
+Hippolyta what would you like to practice? Enter
+0 for subtraction
+1 for exponentiation
+0
+How many practice questions would you like to do? Enter 0, 1, or 2: 0
+Zero questions. OK. Good bye
+Good bye Hippolyta!
+adam@LAPTOP-K8E1KKVP:~/school/iti1120/assignments/A2$ python3 a2_part1.py
+
+*******************************************
+*                                         *
+* __Welcome to my math quiz-generator__   *
+*                                         *
+*******************************************
+    
+What is your name?  Leti
+Hi Leti. Are you in?  Enter 
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above? 
+1
+****************************************************************************
+*                                                                          *
+*  __Leti, welcome to my quiz-generator for elementary school students.__  *
+*                                                                          *
+****************************************************************************
+Leti what would you like to practice? Enter
+0 for subtraction
+1 for exponentiation
+5
+Invalid choice. Only 0 or 1 is accepted.
+Good bye Leti!
+adam@LAPTOP-K8E1KKVP:~/school/iti1120/assignments/A2$ python3 a2_part1.py
+
+*******************************************
+*                                         *
+* __Welcome to my math quiz-generator__   *
+*                                         *
+*******************************************
+    
+What is your name?  Leti
+Hi Leti. Are you in?  Enter 
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above? 
+1
+****************************************************************************
+*                                                                          *
+*  __Leti, welcome to my quiz-generator for elementary school students.__  *
+*                                                                          *
+****************************************************************************
+Leti what would you like to practice? Enter
+0 for subtraction
+1 for exponentiation
+1
+How many practice questions would you like to do? Enter 0, 1, or 2: 5
+Only 0, 1, or 2 are valid choices for the number of questions.
+Good bye Leti!
+adam@LAPTOP-K8E1KKVP:~/school/iti1120/assignments/A2$ 
+
+
+*******************************************
+*                                         *
+* __Welcome to my math quiz-generator__   *
+*                                         *
+*******************************************
+    
+What is your name?  Adam
+Hi Adam. Are you in?  Enter 
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above? 
+1
+****************************************************************************
+*                                                                          *
+*  __Adam, welcome to my quiz-generator for elementary school students.__  *
+*                                                                          *
+****************************************************************************
+Adam what would you like to practice? Enter
+0 for subtraction
+1 for exponentiation
+1
+How many practice questions would you like to do? Enter 0, 1, or 2: 3
+Only 0, 1, or 2 are valid choices for the number of questions.
+Good bye Adam!
+adam@LAPTOP-K8E1KKVP:~/school/iti1120/assignments/A2$ python3 a2_part1.py
+
+*******************************************
+*                                         *
+* __Welcome to my math quiz-generator__   *
+*                                         *
+*******************************************
+    
+What is your name?  Adam
+Hi Adam. Are you in?  Enter 
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above? 
+3
+Adam you are not the target audience for this software
+Good bye Adam!
+adam@LAPTOP-K8E1KKVP:~/school/iti1120/assignments/A2$ python3 a2_part1.py
+
+*******************************************
+*                                         *
+* __Welcome to my math quiz-generator__   *
+*                                         *
+*******************************************
+    
+What is your name?  Adam
+Hi Adam. Are you in?  Enter 
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above? 
+asdfsdafasdfasdfadsf
+Adam you are not the target audience for this software
+Good bye Adam!
+adam@LAPTOP-K8E1KKVP:~/school/iti1120/assignments/A2$ python3 a2_part1.py
+
+*******************************************
+*                                         *
+* __Welcome to my math quiz-generator__   *
+*                                         *
+*******************************************
+    
+What is your name?  Adam
+Hi Adam. Are you in?  Enter 
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above? 
+1
+****************************************************************************
+*                                                                          *
+*  __Adam, welcome to my quiz-generator for elementary school students.__  *
+*                                                                          *
+****************************************************************************
+Adam what would you like to practice? Enter
+0 for subtraction
+1 for exponentiation
+0
+How many practice questions would you like to do? Enter 0, 1, or 2: 2
+Question 1:
+What is the result of 1-2? -1
+Question 2:
+What is the result of 1-6? -4
+Good job Adam! You'll probably pass tomorrow.
+Good bye Adam!
+adam@LAPTOP-K8E1KKVP:~/school/iti1120/assignments/A2$ python3 a2_part1.py
+
+*******************************************
+*                                         *
+* __Welcome to my math quiz-generator__   *
+*                                         *
+*******************************************
+    
+What is your name?  Adam
+Hi Adam. Are you in?  Enter 
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above? 
+1
+****************************************************************************
+*                                                                          *
+*  __Adam, welcome to my quiz-generator for elementary school students.__  *
+*                                                                          *
+****************************************************************************
+Adam what would you like to practice? Enter
+0 for subtraction
+1 for exponentiation
+0
+How many practice questions would you like to do? Enter 0, 1, or 2: 0
+Zero questions. OK. Good bye
+Good bye Adam!
+adam@LAPTOP-K8E1KKVP:~/school/iti1120/assignments/A2$ python3 a2_part1.py
+
+*******************************************
+*                                         *
+* __Welcome to my math quiz-generator__   *
+*                                         *
+*******************************************
+    
+What is your name?  Adam
+Hi Adam. Are you in?  Enter 
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above? 
+1
+****************************************************************************
+*                                                                          *
+*  __Adam, welcome to my quiz-generator for elementary school students.__  *
+*                                                                          *
+****************************************************************************
+Adam what would you like to practice? Enter
+0 for subtraction
+1 for exponentiation
+0
+How many practice questions would you like to do? Enter 0, 1, or 2: 1
+Question 1:
+What is the result of 4-5? -1
+Congratulations Adam! You'll probably get an A tomorrow.
+Good bye Adam!
+adam@LAPTOP-K8E1KKVP:~/school/iti1120/assignments/A2$ python3 a2_part1.py
+
+*******************************************
+*                                         *
+* __Welcome to my math quiz-generator__   *
+*                                         *
+*******************************************
+    
+What is your name?  Adam
+Hi Adam. Are you in?  Enter 
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above? 
+2
+*****************************************************************
+*                                                               *
+*  __quadratic equation, a·x^2 + b·x + c= 0, solver for Adam__  *
+*                                                               *
+*****************************************************************
+Adam, would you like a quadratic equation solved?  YES
+Good choice!
+Enter a number for the coefficient of a: 1
+Enter a number for the coefficient of b: 2
+Enter a number for the coefficient of c: 3
+The quadratic equation 1.0*x^2 + 2.0*x + 3.0 = 0
+has the following two complex roots: 
+-1.0 + i 1.4142135623730951 and -1.0 - i 1.4142135623730951
+Adam, would you like a quadratic equation solved?  YES 
+Good choice!
+Enter a number for the coefficient of a: 2
+Enter a number for the coefficient of b: 3
+Enter a number for the coefficient of c: 4
+The quadratic equation 2.0*x^2 + 3.0*x + 4.0 = 0
+has the following two complex roots: 
+-0.75 + i 1.1989578808281798 and -0.75 - i 1.1989578808281798
+Adam, would you like a quadratic equation solved?  NO
+Good bye Adam!
+adam@LAPTOP-K8E1KKVP:~/school/iti1120/assignments/A2$ python3 a2_part1.py
+
+*******************************************
+*                                         *
+* __Welcome to my math quiz-generator__   *
+*                                         *
+*******************************************
+    
+What is your name?  Adam
+Hi Adam. Are you in?  Enter 
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above? 
+2
+*****************************************************************
+*                                                               *
+*  __quadratic equation, a·x^2 + b·x + c= 0, solver for Adam__  *
+*                                                               *
+*****************************************************************
+Adam, would you like a quadratic equation solved?  NO
+Good bye Adam!
+adam@LAPTOP-K8E1KKVP:~/school/iti1120/assignments/A2$ python3 a2_part1.py
+
+*******************************************
+*                                         *
+* __Welcome to my math quiz-generator__   *
+*                                         *
+*******************************************
+    
+What is your name?  Vida
+Hi Vida. Are you in?  Enter 
+1 for elementary school
+2 for high school or
+3 or other character(s) for none of the above? 
+2
+*****************************************************************
+*                                                               *
+*  __quadratic equation, a·x^2 + b·x + c= 0, solver for Vida__  *
+*                                                               *
+*****************************************************************
+Vida, would you like a quadratic equation solved?  yes
+Good choice!
+Enter a number for the coefficient of a: 4
+Enter a number for the coefficient of b: 6
+Enter a number for the coefficient of c: 7
+The quadratic equation 4.0*x^2 + 6.0*x + 7.0 = 0
+has the following two complex roots: 
+-0.75 + i 1.0897247358851685 and -0.75 - i 1.0897247358851685
+Vida, would you like a quadratic equation solved?  no
+Good bye Vida!

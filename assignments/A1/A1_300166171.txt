@@ -1,0 +1,191 @@
+>>> from assignment1 import *
+>>> # testing Question 1       
+>>> f_to_k(90)
+305.37
+>>> f_to_k(-457.87)
+1.0
+>>> f_to_k(25)      
+269.26
+>>> f_to_k(36) 
+275.37
+>>>
+>>> # testing Question 2
+>>> poem_generator()
+What is your name: Adam
+What is your city: Windsor
+There was a small boy of Windsor
+Who was buried in snow to his neck
+When they said, ‘Are you Adam?'
+He replied, 'Yes, I is —
+But we don’t call this cold in Windsor'
+>>>
+>>> #testing Question 3
+>>> impl2loz(7.5)      
+(7, 8.0)
+>>> impl2loz(9.25) 
+(9, 4.0)
+>>> impl2loz(20)   
+(20, 0)
+>>> impl2loz(20.5) 
+(20, 8.0)
+>>>
+>>> #testing Question 4
+>>> pale(1128)
+False
+>>> pale(3443) 
+True
+>>> pale(3351) 
+False
+>>> pale(3333)  
+False
+>>> pale(4331) 
+False
+>>> pale(3423) 
+True
+>>> pale(4533) 
+False
+>>> pale(4532) 
+True
+>>> pale(4532) 
+True
+>>> pale(4531) 
+True
+>>> pale(4533) 
+False
+>>> pale(4333) 
+False
+>>>
+>>> # testing Question 5
+>>>  bibformat("George R. R. Martin", "A Game of Thrones", "New York City", "Bantam Spectra", 1996)
+  File "<stdin>", line 1
+    bibformat("George R. R. Martin", "A Game of Thrones", "New York City", "Bantam Spectra", 1996)
+    ^
+IndentationError: unexpected indent
+>>> bibformat("George R. R. Martin", "A Game of Thrones", "New York City", "Bantam Spectra", 1996)  
+'George R. R. Martin (1996). A Game of Thrones. New York City: Bantam Spectra.'
+>>>
+>>> #testing Question 6
+>>> 
+>>> bibformat_display()
+Enter the title of a book: Guns, Germs, and Steel: The Fates of Human Societies
+Enter the name of the author? Jared Iamond
+What year was the book published? 1997
+Enter the name of the publisher: W. W. Norton
+In what city are the headquarters of the publisher? New York City
+Jared Iamond (1997). Guns, Germs, and Steel: The Fates of Human Societies. New York City: W. W. Norton.
+>>>
+>>> #testing Question 7
+>>> 
+>>> compound(80,40,31)
+False
+>>> compound(80,41,31) 
+True
+>>> compound(8,41,31)  
+False
+>>> compound(8,1,31)  
+False
+>>> compound(80,1,31) 
+True
+>>> compound(80,1001,-44) 
+False
+>>> compound(-2,1001,-43) 
+True
+>>>
+>>> 
+>>> # testing Question 8
+>>> 
+>>> funct(11)
+The solution is 0.0
+>>> funct(12) 
+The solution is 0.6562595203678139
+>>> funct(10300) 
+The solution is 2.395927506817742
+>>> funct(10000000000000000) 
+The solution is 4.784435696001597
+>>>                         
+>>> 
+>>> # testing Question 9
+>>> gol(5.4)
+3
+>>> gol(4)   
+2
+>>> gol(1000) 
+10
+>>> gol(4200231) 
+23
+>>> gol(42001)   
+16
+>>> gol(420012134) 
+29
+>>> gol(1230012134) 
+31
+>>> gol(12300134)   
+24
+>>>
+>>> #testing Question 10
+>>> 
+>>> draw_rocket()
+>>> 
+>>> 
+>>> # testing Question 11
+>>> 
+>>> cad_cashier(10
+... .58,11)
+  File "<stdin>", line 2
+    .58,11)
+    ^
+SyntaxError: invalid syntax
+>>> cad_cashier(10.58,11)
+0.4
+>>> cad_cashier(98.57,100) 
+1.45
+>>> cad_cashier(98.87,100) 
+1.15
+>>> cad_cashier(98.87,104) 
+5.15
+>>> cad_cashier(98.12,104) 
+5.9
+>>> cad_cashier(98.12,200) 
+101.9
+>>> cad_cashier(45,200)    
+155.0
+>>> cad_cashier(10.58,15)  
+4.4
+>>> cad_cashier(10.55,15) 
+4.45
+>>> cad_cashier(10.54,15) 
+4.45
+>>> cad_cashier(10.52,15) 
+4.5
+>>> cad_cashier(10.50,15) 
+4.5
+>>>
+>>> 
+>>> # testing Question 12
+>>> 
+>>> min_CAD_coins(10.54,15)
+(2, 0, 1, 2, 0)
+>>> min_CAD_coins(10.58,15) 
+(2, 0, 1, 1, 1)
+>>> min_CAD_coins(10.58,11) 
+(0, 0, 1, 1, 1)
+>>> min_CAD_coins(10.58,100) 
+(44, 1, 1, 1, 1)
+>>> min_CAD_coins(50,100)    
+(25, 0, 0, 0, 0)
+>>> min_CAD_coins(50,135) 
+(42, 1, 0, 0, 0)
+>>> min_CAD_coins(10.58,15)  
+(2, 0, 1, 1, 1)
+>>> min_CAD_coins(10.54,15) 
+(2, 0, 1, 2, 0)
+>>> min_CAD_coins(10.55,15) 
+(2, 0, 1, 2, 0)
+>>> min_CAD_coins(10.50,15) 
+(2, 0, 2, 0, 0)
+>>> min_CAD_coins(10.50,20) 
+(4, 1, 2, 0, 0)
+>>> min_CAD_coins(4,20)     
+(8, 0, 0, 0, 0)
+>>> min_CAD_coins(3,20) 
+(8, 1, 0, 0, 0)
